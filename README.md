@@ -1,4 +1,7 @@
 <h1> Learning and Practicing CSS- Frontend </h>
 
-1. Learning how to design the header properly as pro
-2. Handling Screen sizes
+<p> This is a landing page for a website </p>
+<ul>
+<li>Learning how to design the header properly as pro.</li>
+<li>Handling Screen sizes.</li>
+</ul>

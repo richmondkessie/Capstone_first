@@ -1,7 +1,7 @@
 <h1> Learning and Practicing CSS- Frontend </h>
 
-<p style="color: blue;"> This is a landing page for a website </p>
+This is a landing page for a website
 <ul>
-<li>Learning how to design the header properly as pro.</li>
-<li>Handling Screen sizes.</li>
+-Learning how to design the header properly as pro.
+-Handling Screen sizes.
 </ul>

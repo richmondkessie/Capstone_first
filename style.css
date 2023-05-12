@@ -9,8 +9,9 @@
 }
 
 .logo{
-  width: 120px;
-  height: 70px;
+  width: 170px;
+  height: 90px;
+  margin-left: 100px;
 }
 
 .header-button{
@@ -18,11 +19,12 @@
   height: 45px;
   border-radius: 4px;
   border: 1.5px solid black;
-  background: grey;
   line-height: 1px;
   letter-spacing: -1.16px;
-  font-size: 18px;
+  font-size: 24px;
   margin-top: 12px;
+  background: #56b0d5;
+  margin-right: 50px;
 }
 
 .header-button:hover{
@@ -36,12 +38,22 @@ header{
 }
 
 .header-container{
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
+@media (min-width: 420px){
+  .logo{
+    margin-left: 0;
+  }
+  header{
+    margin-top: 0;
+  }
+}
+
 @media (min-width: 768px){
   header{
-    margin-top: 40px;
+    margin-top: 70px;
   }
   .header-button{
     width: 200px;
@@ -57,4 +69,102 @@ header{
     width: 220px;
     height: 65px;
   }
+}
+
+main{
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+
+}
+
+.main-head{
+  margin-top: 8.26px;
+  font-size: 38px;
+  line-height: 24px;
+  color: #172339;
+  text-align: left;
+  letter-spacing: -0.77777778px;
+}
+@media(min-width: 768px){
+  .main-head{
+    text-align: left;
+    letter-spacing: -0.77777778px;
+    font-size: 35px;
+    color: #172339;
+
+  }
+}
+@media(min-width: 420px){
+  .main-head{
+    text-align: left;
+    font-size: 29px;
+    letter-spacing: -0.777px;
+  }
+}
+
+.text{
+  font-size: 60px;
+}
+@media (min-width: 320px){
+  .text{
+    font-size: 40px;
+  }
+}
+
+
+.main-text{
+  margin-top: 50px;
+  font-size: 18px;
+  color: #49566D;
+  text-align: justify;
+  width: 500px;
+  padding: 10px;
+}
+
+.para-text{
+  font-size: 23px;
+
+}
+@media(min-width: 320px){
+  .main-text{
+    width: 450px;
+    font-size: 40px;
+  }
+}
+
+.main-container{
+  width: 90%;
+  margin-inline: auto;
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section{
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+}
+
+.main-button{
+  width: 200px;
+  height: 52px;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 100px;
+  background: #172339;
+  color: #FAF8F6;
+  border-radius: 3px;
+}
+
+.main-button:hover{
+  background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%)
+}
+
+.people{
+  margin-top: 56px;
+  border-radius: 30px;
+  padding: 20px;
 }
